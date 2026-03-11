@@ -88,7 +88,7 @@ import google.generativeai as genai
 
 ### 5.1. AI Model Configuration
 ```python
-genai.configure(api_key="AIzaSyASuQ3BUEDA6Y5evDV3in4i5FgMAJ-wL2M")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-2.5-flash")
 ```
 **Logic Evaluation:** The script initializes the AI state at runtime. It hardcodes an API key and selects the `gemini-2.5-flash` model. The Flash variant is highly optimized for low-latency tasks, making it an excellent architectural choice for a real-time web UI where users expect prompt responses.
